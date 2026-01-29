@@ -20,9 +20,3 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
-<<<<<<< HEAD
-#SQL
-=======
-# SQL
-Course_managment/model/
->>>>>>> origin/Ranil
