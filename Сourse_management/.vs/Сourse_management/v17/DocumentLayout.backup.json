@@ -3,27 +3,31 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Git\\team_workspace\\\u0421ourse_management\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AAFBC9F4-118C-4514-8923-D01FD254DE28}|\u0421ourse_management\\\u0421ourse_management.csproj|c:\\users\\user\\desktop\\git\\team_workspace\\\u0441ourse_management\\\u0441ourse_management\\all_windows\\admin_window.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AAFBC9F4-118C-4514-8923-D01FD254DE28}|\u0421ourse_management\\\u0421ourse_management.csproj|solutionrelative:\u0441ourse_management\\all_windows\\admin_window.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAFBC9F4-118C-4514-8923-D01FD254DE28}|\u0421ourse_management\\\u0421ourse_management.csproj|c:\\users\\user\\desktop\\git\\team_workspace\\\u0441ourse_management\\\u0441ourse_management\\all_windows\\worker_window.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AAFBC9F4-118C-4514-8923-D01FD254DE28}|\u0421ourse_management\\\u0421ourse_management.csproj|solutionrelative:\u0441ourse_management\\all_windows\\worker_window.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAFBC9F4-118C-4514-8923-D01FD254DE28}|\u0421ourse_management\\\u0421ourse_management.csproj|c:\\users\\user\\desktop\\git\\team_workspace\\\u0441ourse_management\\\u0441ourse_management\\all_windows\\user_window.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AAFBC9F4-118C-4514-8923-D01FD254DE28}|\u0421ourse_management\\\u0421ourse_management.csproj|solutionrelative:\u0441ourse_management\\all_windows\\user_window.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AAFBC9F4-118C-4514-8923-D01FD254DE28}|\u0421ourse_management\\\u0421ourse_management.csproj|c:\\users\\user\\desktop\\git\\team_workspace\\\u0441ourse_management\\\u0441ourse_management\\admin_pages\\page3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{AAFBC9F4-118C-4514-8923-D01FD254DE28}|\u0421ourse_management\\\u0421ourse_management.csproj|solutionrelative:\u0441ourse_management\\admin_pages\\page3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AAFBC9F4-118C-4514-8923-D01FD254DE28}|\u0421ourse_management\\\u0421ourse_management.csproj|c:\\users\\user\\desktop\\git\\team_workspace\\\u0441ourse_management\\\u0441ourse_management\\worker_pages\\page2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{AAFBC9F4-118C-4514-8923-D01FD254DE28}|\u0421ourse_management\\\u0421ourse_management.csproj|C:\\Users\\User\\Desktop\\Git\\team_workspace\\\u0421ourse_management\\\u0441ourse_management\\worker_pages\\page2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{AAFBC9F4-118C-4514-8923-D01FD254DE28}|\u0421ourse_management\\\u0421ourse_management.csproj|solutionrelative:\u0441ourse_management\\worker_pages\\page2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AAFBC9F4-118C-4514-8923-D01FD254DE28}|\u0421ourse_management\\\u0421ourse_management.csproj|c:\\users\\user\\desktop\\git\\team_workspace\\\u0441ourse_management\\\u0441ourse_management\\user_pages\\page1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{AAFBC9F4-118C-4514-8923-D01FD254DE28}|\u0421ourse_management\\\u0421ourse_management.csproj|C:\\Users\\User\\Desktop\\Git\\team_workspace\\\u0421ourse_management\\\u0441ourse_management\\user_pages\\page1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{AAFBC9F4-118C-4514-8923-D01FD254DE28}|\u0421ourse_management\\\u0421ourse_management.csproj|solutionrelative:\u0441ourse_management\\user_pages\\page1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AAFBC9F4-118C-4514-8923-D01FD254DE28}|\u0421ourse_management\\\u0421ourse_management.csproj|c:\\users\\user\\desktop\\git\\team_workspace\\\u0441ourse_management\\\u0441ourse_management\\model\\window2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AAFBC9F4-118C-4514-8923-D01FD254DE28}|\u0421ourse_management\\\u0421ourse_management.csproj|solutionrelative:\u0441ourse_management\\model\\window2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AAFBC9F4-118C-4514-8923-D01FD254DE28}|\u0421ourse_management\\\u0421ourse_management.csproj|c:\\users\\user\\desktop\\git\\team_workspace\\\u0441ourse_management\\\u0441ourse_management\\all_windows\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AAFBC9F4-118C-4514-8923-D01FD254DE28}|\u0421ourse_management\\\u0421ourse_management.csproj|solutionrelative:\u0441ourse_management\\all_windows\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AAFBC9F4-118C-4514-8923-D01FD254DE28}|\u0421ourse_management\\\u0421ourse_management.csproj|c:\\users\\user\\desktop\\git\\team_workspace\\\u0441ourse_management\\\u0441ourse_management\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{AAFBC9F4-118C-4514-8923-D01FD254DE28}|\u0421ourse_management\\\u0421ourse_management.csproj|C:\\Users\\User\\Desktop\\Git\\team_workspace\\\u0421ourse_management\\\u0441ourse_management\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{AAFBC9F4-118C-4514-8923-D01FD254DE28}|\u0421ourse_management\\\u0421ourse_management.csproj|solutionrelative:\u0441ourse_management\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
@@ -43,6 +47,42 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Admin_Window.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Git\\team_workspace\\\u0421ourse_management\\\u0421ourse_management\\All_Windows\\Admin_Window.xaml",
+              "RelativeDocumentMoniker": "\u0421ourse_management\\All_Windows\\Admin_Window.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Git\\team_workspace\\\u0421ourse_management\\\u0421ourse_management\\All_Windows\\Admin_Window.xaml",
+              "RelativeToolTip": "\u0421ourse_management\\All_Windows\\Admin_Window.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-29T09:29:11.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Worker_Window.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Git\\team_workspace\\\u0421ourse_management\\\u0421ourse_management\\All_Windows\\Worker_Window.xaml",
+              "RelativeDocumentMoniker": "\u0421ourse_management\\All_Windows\\Worker_Window.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Git\\team_workspace\\\u0421ourse_management\\\u0421ourse_management\\All_Windows\\Worker_Window.xaml",
+              "RelativeToolTip": "\u0421ourse_management\\All_Windows\\Worker_Window.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-29T09:29:00.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User_Window.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Git\\team_workspace\\\u0421ourse_management\\\u0421ourse_management\\All_Windows\\User_Window.xaml",
+              "RelativeDocumentMoniker": "\u0421ourse_management\\All_Windows\\User_Window.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Git\\team_workspace\\\u0421ourse_management\\\u0421ourse_management\\All_Windows\\User_Window.xaml",
+              "RelativeToolTip": "\u0421ourse_management\\All_Windows\\User_Window.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-29T09:28:40.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Page3.xaml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Git\\team_workspace\\\u0421ourse_management\\\u0421ourse_management\\Admin_Pages\\Page3.xaml",
               "RelativeDocumentMoniker": "\u0421ourse_management\\Admin_Pages\\Page3.xaml",
@@ -54,67 +94,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Page2.xaml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Git\\team_workspace\\\u0421ourse_management\\\u0421ourse_management\\Worker_Pages\\Page2.xaml",
               "RelativeDocumentMoniker": "\u0421ourse_management\\Worker_Pages\\Page2.xaml",
               "ToolTip": "C:\\Users\\User\\Desktop\\Git\\team_workspace\\\u0421ourse_management\\\u0421ourse_management\\Worker_Pages\\Page2.xaml",
               "RelativeToolTip": "\u0421ourse_management\\Worker_Pages\\Page2.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-29T08:12:18.586Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-29T08:12:18.586Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Page1.xaml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Git\\team_workspace\\\u0421ourse_management\\\u0421ourse_management\\User_Pages\\Page1.xaml",
               "RelativeDocumentMoniker": "\u0421ourse_management\\User_Pages\\Page1.xaml",
               "ToolTip": "C:\\Users\\User\\Desktop\\Git\\team_workspace\\\u0421ourse_management\\\u0421ourse_management\\User_Pages\\Page1.xaml",
               "RelativeToolTip": "\u0421ourse_management\\User_Pages\\Page1.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-29T08:12:09.729Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-29T08:12:09.729Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Window2.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Git\\team_workspace\\\u0421ourse_management\\\u0421ourse_management\\model\\Window2.xaml",
-              "RelativeDocumentMoniker": "\u0421ourse_management\\model\\Window2.xaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Git\\team_workspace\\\u0421ourse_management\\\u0421ourse_management\\model\\Window2.xaml",
-              "RelativeToolTip": "\u0421ourse_management\\model\\Window2.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-29T08:11:59.348Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Window1.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Git\\team_workspace\\\u0421ourse_management\\\u0421ourse_management\\All_Windows\\Window1.xaml",
-              "RelativeDocumentMoniker": "\u0421ourse_management\\All_Windows\\Window1.xaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Git\\team_workspace\\\u0421ourse_management\\\u0421ourse_management\\All_Windows\\Window1.xaml",
-              "RelativeToolTip": "\u0421ourse_management\\All_Windows\\Window1.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-29T08:11:48.013Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Git\\team_workspace\\\u0421ourse_management\\\u0421ourse_management\\MainWindow.xaml",
               "RelativeDocumentMoniker": "\u0421ourse_management\\MainWindow.xaml",
               "ToolTip": "C:\\Users\\User\\Desktop\\Git\\team_workspace\\\u0421ourse_management\\\u0421ourse_management\\MainWindow.xaml",
               "RelativeToolTip": "\u0421ourse_management\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-29T07:57:54.453Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-29T07:57:54.453Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Git\\team_workspace\\\u0421ourse_management\\\u0421ourse_management\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "\u0421ourse_management\\MainWindow.xaml.cs",

@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace Сourse_management.All_Windows
 {
     /// <summary>
-    /// Логика взаимодействия для Window1.xaml
+    /// Логика взаимодействия для Admin_Window.xaml
     /// </summary>
-    public partial class Window1 : Window
+    public partial class Admin_Window : Window
     {
-        public Window1()
+        public Admin_Window()
         {
             InitializeComponent();
         }

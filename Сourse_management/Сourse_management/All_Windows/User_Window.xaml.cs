@@ -12,14 +12,14 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace Сourse_management.model
+namespace Сourse_management.All_Windows
 {
     /// <summary>
-    /// Логика взаимодействия для Window2.xaml
+    /// Логика взаимодействия для User_Window.xaml
     /// </summary>
-    public partial class Window2 : Window
+    public partial class User_Window : Window
     {
-        public Window2()
+        public User_Window()
         {
             InitializeComponent();
         }
