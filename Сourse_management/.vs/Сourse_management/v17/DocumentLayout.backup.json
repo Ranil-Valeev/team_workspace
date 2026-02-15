@@ -1,0 +1,68 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Git\\team_workspace\\\u0421ourse_management\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{86575B39-8F5E-4949-BF6E-A03ACF525CD4}|\u0421ourse_management\\\u0421ourse_management.csproj|c:\\users\\user\\desktop\\git\\team_workspace\\\u0441ourse_management\\\u0441ourse_management\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{86575B39-8F5E-4949-BF6E-A03ACF525CD4}|\u0421ourse_management\\\u0421ourse_management.csproj|solutionrelative:\u0441ourse_management\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86575B39-8F5E-4949-BF6E-A03ACF525CD4}|\u0421ourse_management\\\u0421ourse_management.csproj|C:\\Users\\User\\Desktop\\Git\\team_workspace\\\u0421ourse_management\\\u0441ourse_management\\pages\\registerpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{86575B39-8F5E-4949-BF6E-A03ACF525CD4}|\u0421ourse_management\\\u0421ourse_management.csproj|solutionrelative:\u0441ourse_management\\pages\\registerpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86575B39-8F5E-4949-BF6E-A03ACF525CD4}|\u0421ourse_management\\\u0421ourse_management.csproj|C:\\Users\\User\\Desktop\\Git\\team_workspace\\\u0421ourse_management\\\u0441ourse_management\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{86575B39-8F5E-4949-BF6E-A03ACF525CD4}|\u0421ourse_management\\\u0421ourse_management.csproj|solutionrelative:\u0441ourse_management\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Git\\team_workspace\\\u0421ourse_management\\\u0421ourse_management\\App.xaml",
+              "RelativeDocumentMoniker": "\u0421ourse_management\\App.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Git\\team_workspace\\\u0421ourse_management\\\u0421ourse_management\\App.xaml",
+              "RelativeToolTip": "\u0421ourse_management\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-15T10:30:54.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Git\\team_workspace\\\u0421ourse_management\\\u0421ourse_management\\Pages\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "\u0421ourse_management\\Pages\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Git\\team_workspace\\\u0421ourse_management\\\u0421ourse_management\\Pages\\LoginPage.xaml",
+              "RelativeToolTip": "\u0421ourse_management\\Pages\\LoginPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-15T10:30:14.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegisterPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Git\\team_workspace\\\u0421ourse_management\\\u0421ourse_management\\Pages\\RegisterPage.xaml.cs",
+              "RelativeDocumentMoniker": "\u0421ourse_management\\Pages\\RegisterPage.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Git\\team_workspace\\\u0421ourse_management\\\u0421ourse_management\\Pages\\RegisterPage.xaml.cs",
+              "RelativeToolTip": "\u0421ourse_management\\Pages\\RegisterPage.xaml.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAIwCQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T10:27:19.165Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
