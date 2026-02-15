@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,20 +12,17 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Сourse_management.Pages;
 
-namespace Сourse_management
+namespace Сourse_management.Views
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для LoginView.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class LoginView : Page
     {
-        public MainWindow()
+        public LoginView()
         {
             InitializeComponent();
-            MainFrame.Navigate(new Pages.StartPage());
         }
-       
     }
 }

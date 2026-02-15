@@ -20,11 +20,20 @@ namespace Сourse_management.Pages
     /// </summary>
     public partial class LoginPage : Page
     {
-        private Frame _frame;
-        public LoginPage(Frame frame)
+
+        public LoginPage()
         {
             InitializeComponent();
-            _frame = frame;
+
+        }
+        private void Ok_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("OK (заглушка)");
+        }
+
+        private void Cancel_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.GoBack();
         }
     }
 }

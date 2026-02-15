@@ -9,6 +9,173 @@
       Title="RegisterPage">
 
     <Grid>
-        
+        <!-- Фон -->
+        <Border>
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#0A1323" Offset="0"/>
+                    <GradientStop Color="#050B16" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+        </Border>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <!-- Лого -->
+            <StackPanel Grid.Row="0"
+                        HorizontalAlignment="Center"
+                        Margin="0,45,0,0">
+                <Image Source="/Assets/Лого.png"
+                       Width="110"
+                       Height="110"
+                       Stretch="Uniform"
+                       Margin="0,0,0,6"/>
+
+                <TextBlock Text="Hello, Code!"
+                           Foreground="#9AA8C7"
+                           FontSize="18"
+                           FontWeight="Light"
+                           HorizontalAlignment="Center"/>
+            </StackPanel>
+
+            <!-- 2 колонки полей -->
+            <Grid Grid.Row="1"
+                  Width="900"
+                  HorizontalAlignment="Center"
+                  VerticalAlignment="Center"
+                  Margin="0,20,0,0">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="80"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- Левая колонка -->
+                <StackPanel Grid.Column="0">
+
+                    <TextBlock Text="Введите фамилию:"
+                               Foreground="#9AA8C7"
+                               FontSize="13"
+                               Margin="0,0,0,5"/>
+
+                    <TextBox Style="{StaticResource RoundTextBoxStyle}"
+                             Margin="0,0,0,14"/>
+
+                    <TextBlock Text="Введите имя:"
+                               Foreground="#9AA8C7"
+                               FontSize="13"
+                               Margin="0,0,0,5"/>
+
+                    <TextBox Style="{StaticResource RoundTextBoxStyle}"
+                             Margin="0,0,0,14"/>
+
+                    <TextBlock Text="Введите отчество:"
+                               Foreground="#9AA8C7"
+                               FontSize="13"
+                               Margin="0,0,0,5"/>
+
+                    <TextBox Style="{StaticResource RoundTextBoxStyle}"
+                             Margin="0,0,0,14"/>
+
+                    <TextBlock Text="Введите год рождения:"
+                               Foreground="#9AA8C7"
+                               FontSize="13"
+                               Margin="0,0,0,5"/>
+
+                    <TextBox Style="{StaticResource RoundTextBoxStyle}"
+                             Margin="0,0,0,14"/>
+
+                    <TextBlock Text="Введите пол:"
+                               Foreground="#9AA8C7"
+                               FontSize="13"
+                               Margin="0,0,0,5"/>
+
+                    <TextBox Style="{StaticResource RoundTextBoxStyle}"/>
+                </StackPanel>
+
+                <!-- Правая колонка -->
+                <StackPanel Grid.Column="2">
+
+                    <TextBlock Text="Введите электронную почту:"
+                               Foreground="#9AA8C7"
+                               FontSize="13"
+                               Margin="0,0,0,5"/>
+
+                    <TextBox Style="{StaticResource RoundTextBoxStyle}"
+                             Margin="0,0,0,14"/>
+
+                    <TextBlock Text="Введите номер телефона:"
+                               Foreground="#9AA8C7"
+                               FontSize="13"
+                               Margin="0,0,0,5"/>
+
+                    <TextBox Style="{StaticResource RoundTextBoxStyle}"
+                             Margin="0,0,0,14"/>
+
+                    <TextBlock Text="Введите логин:"
+                               Foreground="#9AA8C7"
+                               FontSize="13"
+                               Margin="0,0,0,5"/>
+
+                    <TextBox Style="{StaticResource RoundTextBoxStyle}"
+                             Margin="0,0,0,14"/>
+
+                    <TextBlock Text="Введите пароль:"
+                               Foreground="#9AA8C7"
+                               FontSize="13"
+                               Margin="0,0,0,5"/>
+
+                    <PasswordBox Style="{StaticResource RoundPasswordBoxStyle}"
+                                 Margin="0,0,0,14"/>
+
+                    <TextBlock Text="Подтвердите пароль:"
+                               Foreground="#9AA8C7"
+                               FontSize="13"
+                               Margin="0,0,0,5"/>
+
+                    <PasswordBox Style="{StaticResource RoundPasswordBoxStyle}"/>
+                </StackPanel>
+
+            </Grid>
+
+            <!-- Кнопки -->
+            <StackPanel Grid.Row="2"
+                        Orientation="Horizontal"
+                        HorizontalAlignment="Center"
+                        Margin="0,0,0,55">
+
+                <Button Content="Ok"
+                        Width="200"
+                        Height="46"
+                        Margin="0,0,80,0"
+                        FontSize="18"
+                        Foreground="#C9D4F0"
+                        Background="#2C416C"
+                        BorderBrush="#6F87B8"
+                        BorderThickness="2"
+                        Cursor="Hand"
+                        Click="Ok_Click"
+                        Style="{StaticResource RoundButtonStyle}"/>
+
+                <Button Content="Отмена"
+                        Width="200"
+                        Height="46"
+                        FontSize="18"
+                        Foreground="#C9D4F0"
+                        Background="#2C416C"
+                        BorderBrush="#6F87B8"
+                        BorderThickness="2"
+                        Cursor="Hand"
+                        Click="Cancel_Click"
+                        Style="{StaticResource RoundButtonStyle}"/>
+            </StackPanel>
+
+        </Grid>
     </Grid>
 </Page>

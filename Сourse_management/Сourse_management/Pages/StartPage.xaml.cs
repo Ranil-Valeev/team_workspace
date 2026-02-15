@@ -21,25 +21,24 @@ namespace Сourse_management.Pages
     /// </summary>
     public partial class StartPage : Page
     {
-        private Frame _frame;
-        public StartPage(Frame frame)
+
+        public StartPage()
         {
             InitializeComponent();
-            _frame = frame;
         }
         private void Login_Click(object sender, RoutedEventArgs e)
         {
-            _frame.Navigate(new Pages.LoginPage(_frame));
+            NavigationService.Navigate(new Pages.LoginPage());
         }
 
         private void Register_Click(object sender, RoutedEventArgs e)
         {
-            _frame.Navigate(new Pages.RegisterPage(_frame));
+            NavigationService.Navigate(new Pages.RegisterPage());
         }
 
         private void Telegram_Click(object sender, RoutedEventArgs e)
         {
-            string url = "https://t.me/your_channel";
+            string url = "https://t.me/exicdzn";
 
             Process.Start(new ProcessStartInfo(url)
             {
