@@ -23,3 +23,10 @@ obj/
 # Другие временные файлы
 *.log
 *.tmp
+
+# Visual Studio cache/options
+.vs/
+*.vs/
+.vs/**/*
+
+
