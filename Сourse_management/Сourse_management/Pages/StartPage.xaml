@@ -12,8 +12,8 @@
         <Border>
             <Border.Background>
                 <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                    <GradientStop Color="#0A1323" Offset="0"/>
-                    <GradientStop Color="#050B16" Offset="1"/>
+                    <GradientStop Color="#091333" Offset="0"/>
+                    <GradientStop Color="#182448" Offset="1"/>
                 </LinearGradientBrush>
             </Border.Background>
         </Border>
@@ -48,7 +48,8 @@
                         BorderBrush="#6F87B8"
                         BorderThickness="2"
                         Cursor="Hand"
-                        Click="Login_Click"/>
+                        Click="Login_Click"
+                        Style="{StaticResource RoundButtonStyle}"/>
 
                 <Button Content="Регистрация"
                         Width="220"
@@ -59,7 +60,8 @@
                         BorderBrush="#6F87B8"
                         BorderThickness="2"
                         Cursor="Hand"
-                        Click="Register_Click"/>
+                        Click="Register_Click"
+                        Style="{StaticResource RoundButtonStyle}"/>
             </StackPanel>
         </StackPanel>
 
