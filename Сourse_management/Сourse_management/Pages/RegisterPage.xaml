@@ -140,6 +140,13 @@
                                Margin="0,0,0,5"/>
 
                     <PasswordBox Style="{StaticResource RoundPasswordBoxStyle}"/>
+
+                    <Label x:Name="PasswordErrorLabel"
+                           Content=""
+                           Foreground="Red"
+                           FontSize="12"
+                           Visibility="Collapsed"
+                           Margin="5,0,0,0"/>
                 </StackPanel>
 
             </Grid>
