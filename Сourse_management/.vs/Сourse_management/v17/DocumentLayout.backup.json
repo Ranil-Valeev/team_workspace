@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Git\\team_workspace\\\u0421ourse_management\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{86575B39-8F5E-4949-BF6E-A03ACF525CD4}|\u0421ourse_management\\\u0421ourse_management.csproj|c:\\users\\user\\desktop\\git\\team_workspace\\\u0441ourse_management\\\u0441ourse_management\\pages\\startpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{86575B39-8F5E-4949-BF6E-A03ACF525CD4}|\u0421ourse_management\\\u0421ourse_management.csproj|solutionrelative:\u0441ourse_management\\pages\\startpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{86575B39-8F5E-4949-BF6E-A03ACF525CD4}|\u0421ourse_management\\\u0421ourse_management.csproj|c:\\users\\user\\desktop\\git\\team_workspace\\\u0441ourse_management\\\u0441ourse_management\\pages\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{86575B39-8F5E-4949-BF6E-A03ACF525CD4}|\u0421ourse_management\\\u0421ourse_management.csproj|solutionrelative:\u0441ourse_management\\pages\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
@@ -19,6 +23,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "StartPage.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Git\\team_workspace\\\u0421ourse_management\\\u0421ourse_management\\Pages\\StartPage.xaml",
+              "RelativeDocumentMoniker": "\u0421ourse_management\\Pages\\StartPage.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Git\\team_workspace\\\u0421ourse_management\\\u0421ourse_management\\Pages\\StartPage.xaml",
+              "RelativeToolTip": "\u0421ourse_management\\Pages\\StartPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-16T07:26:19.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "RegisterPage.xaml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Git\\team_workspace\\\u0421ourse_management\\\u0421ourse_management\\Pages\\RegisterPage.xaml",
               "RelativeDocumentMoniker": "\u0421ourse_management\\Pages\\RegisterPage.xaml",
