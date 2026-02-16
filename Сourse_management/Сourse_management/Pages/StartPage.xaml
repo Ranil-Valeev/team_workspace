@@ -9,13 +9,8 @@
       Title="StartPage">
 
     <Grid>
-        <Border>
-            <Border.Background>
-                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                    <GradientStop Color="#091333" Offset="0"/>
-                    <GradientStop Color="#182448" Offset="1"/>
-                </LinearGradientBrush>
-            </Border.Background>
+        <Border Background="#030E35">
+
         </Border>
 
         <StackPanel HorizontalAlignment="Center"
