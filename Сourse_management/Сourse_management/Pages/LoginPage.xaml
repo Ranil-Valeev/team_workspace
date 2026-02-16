@@ -13,8 +13,8 @@
         <Border>
             <Border.Background>
                 <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                    <GradientStop Color="#0A1323" Offset="0"/>
-                    <GradientStop Color="#050B16" Offset="1"/>
+                    <GradientStop Color="#091333" Offset="0"/>
+                    <GradientStop Color="#182448" Offset="1"/>
                 </LinearGradientBrush>
             </Border.Background>
         </Border>
@@ -54,13 +54,7 @@
                            FontSize="14"
                            Margin="0,0,0,6"/>
 
-                <TextBox Height="40"
-                         FontSize="16"
-                         Padding="16,6"
-                         Foreground="#E6EEFF"
-                         Background="#2C416C"
-                         BorderBrush="#6F87B8"
-                         BorderThickness="2"
+                <TextBox Style="{StaticResource RoundTextBoxStyle}"
                          Margin="0,0,0,18">
                     <TextBox.Resources>
                         <Style TargetType="Border">
