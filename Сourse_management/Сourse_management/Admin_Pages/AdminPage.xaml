@@ -1,0 +1,171 @@
+﻿<Page x:Class="Сourse_management.Admin_Pages.AdminPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Сourse_management.Admin_Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="768" d:DesignWidth="1152"
+      Title="AdminPage">
+
+    <Grid>
+        <Border>
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#091333" Offset="0"/>
+                    <GradientStop Color="#182448" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+        </Border>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="280"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Левая часть - Frame для контента -->
+            <Frame Grid.Column="0"
+                   x:Name="MainFrame2"
+                   NavigationUIVisibility="Hidden"
+                   Background="Transparent"/>
+
+            <!-- Правая панель -->
+            <Border Grid.Column="1"
+                    Background="#1A2847"
+                    BorderBrush="#2C416C"
+                    BorderThickness="2,0,0,0">
+
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <StackPanel Grid.Row="0" Margin="20,20,20,30">
+
+                        <StackPanel Orientation="Horizontal"
+                                    HorizontalAlignment="Right"
+                                    Margin="0,0,0,20">
+
+                            <Button Width="32" Height="32"
+                                    Margin="5,0"
+                                    Background="Transparent"
+                                    BorderThickness="0"
+                                    Cursor="Hand"
+                                    Click="Minimize_Click">
+                                <Image Source="/Assets/минус.png" 
+                                       Width="20" Height="20"
+                                       Stretch="Uniform"/>
+                            </Button>
+
+                            <Button Width="32" Height="32"
+                                    Margin="5,0"
+                                    Background="Transparent"
+                                    BorderThickness="0"
+                                    Cursor="Hand"
+                                    Click="Maximize_Click">
+                                <Image Source="/Assets/увел и умен.png" 
+                                       Width="20" Height="20"
+                                       Stretch="Uniform"/>
+                            </Button>
+
+                            <Button Width="32" Height="32"
+                                    Margin="5,0"
+                                    Background="Transparent"
+                                    BorderThickness="0"
+                                    Cursor="Hand"
+                                    Click="Close_Click">
+                                <Image Source="/Assets/крестик.png" 
+                                       Width="20" Height="20"
+                                       Stretch="Uniform"/>
+                            </Button>
+                        </StackPanel>
+
+                        <!-- Лого -->
+                        <Image Source="/Assets/Лого.png"
+                               Width="110"
+                               Height="110"
+                               Stretch="Uniform"
+                               Margin="0,0,0,10"/>
+
+                        <TextBlock Text="Hello, Code!"
+                                   Foreground="#9AA8C7"
+                                   FontSize="16"
+                                   HorizontalAlignment="Center"
+                                   Margin="0,0,0,20"/>
+
+                        <!-- Индикатор роли -->
+                        <Border Background="#C94A4A"
+                                CornerRadius="12"
+                                Padding="12,6"
+                                HorizontalAlignment="Center">
+                            <TextBlock Text="● АДМИН"
+                                       Foreground="White"
+                                       FontSize="13"
+                                       FontWeight="Bold"/>
+                        </Border>
+                    </StackPanel>
+
+                    <!-- Меню навигации -->
+                    <StackPanel Grid.Row="1" 
+                                Margin="10,0">
+
+                        <Button Content="Курсы"
+                                Width="240"
+                                Height="46"
+                                Margin="0,0,0,14"
+                                FontSize="16"
+                                Foreground="#C9D4F0"
+                                Background="#2C416C"
+                                BorderBrush="#6F87B8"
+                                BorderThickness="2"
+                                Cursor="Hand"
+                                Click="Courses_Click"
+                                Style="{StaticResource RoundButtonStyle}"/>
+
+                        <Button Content="Лекции"
+                                Width="240"
+                                Height="46"
+                                Margin="0,0,0,14"
+                                FontSize="16"
+                                Foreground="#C9D4F0"
+                                Background="#2C416C"
+                                BorderBrush="#6F87B8"
+                                BorderThickness="2"
+                                Cursor="Hand"
+                                Click="Lessons_Click"
+                                Style="{StaticResource RoundButtonStyle}"/>
+
+                        <Button Content="Задачи"
+                                Width="240"
+                                Height="46"
+                                Margin="0,0,0,14"
+                                FontSize="16"
+                                Foreground="#C9D4F0"
+                                Background="#2C416C"
+                                BorderBrush="#6F87B8"
+                                BorderThickness="2"
+                                Cursor="Hand"
+                                Click="Tasks_Click"
+                                Style="{StaticResource RoundButtonStyle}"/>
+                    </StackPanel>
+
+                    <!-- Кнопка выхода внизу -->
+                    <Button Grid.Row="2"
+                            Content="Выход"
+                            Height="46"
+                            Margin="20,0,18,20"
+                            FontSize="16"
+                            Foreground="#C9D4F0"
+                            Background="#2C416C"
+                            BorderBrush="#6F87B8"
+                            BorderThickness="2"
+                            Cursor="Hand"
+                            Click="Logout_Click"
+                            Style="{StaticResource RoundButtonStyle}"/>
+                </Grid>
+            </Border>
+        </Grid>
+    </Grid>
+</Page>

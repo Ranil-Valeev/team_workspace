@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7703222960ee44baa2de58be4092affc" Name="Diagram1">
+        <EntityTypeShape EntityType="CoursesModel.Courses" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoursesModel.Courses_Status" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoursesModel.Creator" Width="1.5" PointX="3" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoursesModel.language" Width="1.5" PointX="1.5" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoursesModel.Lessons" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoursesModel.Role" Width="1.5" PointX="1.5" PointY="19.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoursesModel.Student" Width="1.5" PointX="0.75" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoursesModel.Student_Courses" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoursesModel.Student_Lessons" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoursesModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoursesModel.Tasks" Width="1.5" PointX="5.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoursesModel.Users" Width="1.5" PointX="1.5" PointY="16.5" IsExpanded="true" />
+        <AssociationConnector Association="CoursesModel.FK_Courses_language" ManuallyRouted="false" />
+        <AssociationConnector Association="CoursesModel.FK_Lessons_Courses" ManuallyRouted="false" />
+        <AssociationConnector Association="CoursesModel.FK_Student_Courses_Courses" ManuallyRouted="false" />
+        <AssociationConnector Association="CoursesModel.FK_Student_Courses_Courses_Status" ManuallyRouted="false" />
+        <AssociationConnector Association="CoursesModel.FK_Student_Lessons_Courses_Status" ManuallyRouted="false" />
+        <AssociationConnector Association="CoursesModel.FK_Creator_Student" ManuallyRouted="false" />
+        <AssociationConnector Association="CoursesModel.FK_Student_Lessons_Lessons" ManuallyRouted="false" />
+        <AssociationConnector Association="CoursesModel.FK_Tasks_Lessons" ManuallyRouted="false" />
+        <AssociationConnector Association="CoursesModel.FK_Users_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="CoursesModel.FK_Student_Courses_Student" ManuallyRouted="false" />
+        <AssociationConnector Association="CoursesModel.FK_Student_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="CoursesModel.FK_Student_Lessons_Student_Courses" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

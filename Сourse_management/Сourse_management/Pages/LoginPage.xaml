@@ -10,7 +10,7 @@
 
     <Grid>
         <!-- Фон -->
-        <Border Background="#030E35">
+        <Border Background="#131723">
             
         </Border>
 
@@ -50,6 +50,7 @@
                            Margin="0,0,0,6"/>
 
                 <TextBox Style="{StaticResource RoundTextBoxStyle}"
+                         x:Name="TbLogin"
                          Margin="0,0,0,18">
                     <TextBox.Resources>
                         <Style TargetType="Border">
@@ -63,7 +64,7 @@
                            FontSize="14"
                            Margin="0,0,0,6"/>
 
-                <PasswordBox Style="{StaticResource RoundPasswordBoxStyle}"
+                <PasswordBox x:Name="PbPassword" Style="{StaticResource RoundPasswordBoxStyle}"
              Margin="0,0,0,0"/>
 
             </StackPanel>
