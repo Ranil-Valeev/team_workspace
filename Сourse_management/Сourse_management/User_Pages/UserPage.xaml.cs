@@ -26,11 +26,7 @@ namespace Сourse_management.User_Pages
             InitializeComponent();
             UserContentFrame.Navigate(new UserWelcomePage());
         }
-        //private void Logout_Click(object sender, RoutedEventArgs e)
-        //{
-        //    CurrentUser.Logout();
-        //    NavigationService?.Navigate(new LoginPage());
-        //}
+
         private void Profile_Click(object sender, RoutedEventArgs e)
         {
             UserContentFrame.Navigate(new UserProfilePage());
@@ -38,46 +34,22 @@ namespace Сourse_management.User_Pages
 
         private void Articles_Click(object sender, RoutedEventArgs e)
         {
-            UserContentFrame.Navigate(new ArticlesPage());
+            UserContentFrame.Navigate(new MyCoursesPage());
         }
 
         private void Example2_Click(object sender, RoutedEventArgs e)
         {
-            // UserContentFrame.Navigate(new Example2Page());
-            MessageBox.Show("Страница в разработке", "Информация", MessageBoxButton.OK, MessageBoxImage.Information);
+            UserContentFrame.Navigate(new CoursesListPage());
         }
 
-        private void Example3_Click(object sender, RoutedEventArgs e)
-        {
-            // UserContentFrame.Navigate(new Example3Page());
-            MessageBox.Show("Страница в разработке", "Информация", MessageBoxButton.OK, MessageBoxImage.Information);
-        }
-
-        private void Example4_Click(object sender, RoutedEventArgs e)
-        {
-            // UserContentFrame.Navigate(new Example4Page());
-            MessageBox.Show("Страница в разработке", "Информация", MessageBoxButton.OK, MessageBoxImage.Information);
-        }
-
-        private void Example5_Click(object sender, RoutedEventArgs e)
-        {
-            // UserContentFrame.Navigate(new Example5Page());
-            MessageBox.Show("Страница в разработке", "Информация", MessageBoxButton.OK, MessageBoxImage.Information);
-        }
 
         private void Logout_Click(object sender, RoutedEventArgs e)
         {
-            var result = MessageBox.Show("Вы уверены, что хотите выйти?",
-                                        "Выход",
-                                        MessageBoxButton.YesNo,
-                                        MessageBoxImage.Question);
 
-            if (result == MessageBoxResult.Yes)
-            {
-                CurrentUser.Logout();
-                NavigationService?.Navigate(new LoginPage());
-            }
+            CurrentUser.Logout();
+            NavigationService?.Navigate(new LoginPage());
         }
+
 
         // Управление окном
         private void Minimize_Click(object sender, RoutedEventArgs e)
@@ -95,8 +67,8 @@ namespace Сourse_management.User_Pages
 
         private void Close_Click(object sender, RoutedEventArgs e)
         {
-                Application.Current.Shutdown();
-       
+            Application.Current.Shutdown();
+
         }
     }
 }

@@ -120,7 +120,7 @@
                                 Click="Profile_Click"
                                 Style="{StaticResource RoundButtonStyle}"/>
 
-                        <Button Content="Статьи и задачи"
+                        <Button Content="Мои курсы"
                                 Width="240"
                                 Height="46"
                                 Margin="0,0,0,14"
@@ -133,7 +133,7 @@
                                 Click="Articles_Click"
                                 Style="{StaticResource RoundButtonStyle}"/>
 
-                        <Button Content="Пример текста 2"
+                        <Button Content="Курсы"
                                 Width="240"
                                 Height="46"
                                 Margin="0,0,0,14"
@@ -144,45 +144,6 @@
                                 BorderThickness="2"
                                 Cursor="Hand"
                                 Click="Example2_Click"
-                                Style="{StaticResource RoundButtonStyle}"/>
-
-                        <Button Content="Пример текста 3"
-                                Width="240"
-                                Height="46"
-                                Margin="0,0,0,14"
-                                FontSize="16"
-                                Foreground="#C9D4F0"
-                                Background="#2C416C"
-                                BorderBrush="#6F87B8"
-                                BorderThickness="2"
-                                Cursor="Hand"
-                                Click="Example3_Click"
-                                Style="{StaticResource RoundButtonStyle}"/>
-
-                        <Button Content="Пример текста 4"
-                                Width="240"
-                                Height="46"
-                                Margin="0,0,0,14"
-                                FontSize="16"
-                                Foreground="#C9D4F0"
-                                Background="#2C416C"
-                                BorderBrush="#6F87B8"
-                                BorderThickness="2"
-                                Cursor="Hand"
-                                Click="Example4_Click"
-                                Style="{StaticResource RoundButtonStyle}"/>
-
-                        <Button Content="Пример текста 5"
-                                Width="240"
-                                Height="46"
-                                Margin="0,0,0,14"
-                                FontSize="16"
-                                Foreground="#C9D4F0"
-                                Background="#2C416C"
-                                BorderBrush="#6F87B8"
-                                BorderThickness="2"
-                                Cursor="Hand"
-                                Click="Example5_Click"
                                 Style="{StaticResource RoundButtonStyle}"/>
                     </StackPanel>
 

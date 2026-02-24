@@ -134,10 +134,19 @@
     <Compile Include="model\Users.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
-    <Compile Include="User_Pages\ArticlesPage.xaml.cs">
-      <DependentUpon>ArticlesPage.xaml</DependentUpon>
+    <Compile Include="User_Pages\CourseDetailPage.xaml.cs">
+      <DependentUpon>CourseDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="User_Pages\CoursesListPage.xaml.cs">
+      <DependentUpon>CoursesListPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="User_Pages\CurrentUser.cs" />
+    <Compile Include="User_Pages\LessonPage.xaml.cs">
+      <DependentUpon>LessonPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="User_Pages\MyCoursesPage.xaml.cs">
+      <DependentUpon>MyCoursesPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="User_Pages\UserPage.xaml.cs">
       <DependentUpon>UserPage.xaml</DependentUpon>
     </Compile>
@@ -191,7 +200,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="User_Pages\ArticlesPage.xaml">
+    <Page Include="User_Pages\CourseDetailPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="User_Pages\CoursesListPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="User_Pages\LessonPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="User_Pages\MyCoursesPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
